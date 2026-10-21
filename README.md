@@ -15,8 +15,7 @@ Explore possibilities. Understand trade-offs. Turn intentions into action.
 
 ### 🌐 Live Dashboard
 
-**Coming soon — deployment is in progress.**
-
+**🚧 Deployment status:** Not deployed yet. The project source and visual gallery are available below.
 [📂 Browse Source Code](https://github.com/snehassneha4578-collab/lifetwin-ai) · [🐛 Report an Issue](https://github.com/snehassneha4578-collab/lifetwin-ai/issues) · [🖼️ View Image Gallery](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
 
 </div>
