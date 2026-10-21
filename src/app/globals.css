@@ -1,0 +1,165 @@
+﻿@import "tailwindcss";
+
+:root {
+  --background: #080b14;
+  --foreground: #f1f5f9;
+  --color-background: #080b14;
+  --color-foreground: #f1f5f9;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --background: #080b14;
+  --foreground: #f1f5f9;
+  --color-background: #080b14;
+  --color-foreground: #f1f5f9;
+  color-scheme: dark;
+}
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LifeTwin AI â€” premium motion and visual system */
+:root {
+  --background: #080b14;
+  --foreground: #f1f5f9;
+  --color-background: #080b14;
+  --color-foreground: #f1f5f9;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #080b14;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 12% 4%, rgba(109, 40, 217, 0.13), transparent 34rem),
+    radial-gradient(ellipse at 92% 25%, rgba(8, 145, 178, 0.09), transparent 32rem),
+    #080b14;
+}
+
+::selection {
+  background: rgba(167, 139, 250, 0.35);
+  color: #fff;
+}
+
+button, a, input, textarea, select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease,
+    color 180ms ease;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--lt-cyan);
+  outline-offset: 3px;
+}
+
+@keyframes lt-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lt-glow {
+  0%, 100% { box-shadow: 0 0 0 rgba(139, 92, 246, 0); }
+  50% { box-shadow: 0 0 28px rgba(139, 92, 246, 0.16); }
+}
+
+@keyframes lt-shimmer {
+  from { background-position: 180% 0; }
+  to { background-position: -180% 0; }
+}
+
+@keyframes lt-pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: .45; transform: scale(.82); }
+}
+
+.lt-animate-in {
+  animation: lt-fade-up 550ms cubic-bezier(.2,.7,.2,1) both;
+}
+
+.lt-animate-glow {
+  animation: lt-glow 3.5s ease-in-out infinite;
+}
+
+.lt-delay-1 { animation-delay: 80ms; }
+.lt-delay-2 { animation-delay: 160ms; }
+.lt-delay-3 { animation-delay: 240ms; }
+.lt-delay-4 { animation-delay: 320ms; }
+
+.lt-glass {
+  background: rgba(17, 20, 35, .72);
+  border: 1px solid rgba(255, 255, 255, .085);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.lt-gradient-text {
+  background: linear-gradient(100deg, #c4b5fd 0%, #67e8f9 48%, #f0abfc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.lt-gradient-border {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#101321, #101321) padding-box,
+    linear-gradient(120deg, rgba(167,139,250,.7), rgba(103,232,249,.45), rgba(240,171,252,.55)) border-box;
+}
+
+.lt-chart-bar {
+  transform-origin: bottom;
+  animation: lt-fade-up 650ms cubic-bezier(.2,.7,.2,1) both;
+}
+
+@media (hover: hover) {
+  button:not(:disabled):hover {
+    transform: translateY(-1px);
+  }
+
+  .lt-interactive-card {
+    transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+  }
+
+  .lt-interactive-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(167, 139, 250, .34);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, .2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
