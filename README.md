@@ -96,11 +96,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/01-hero-background.jpeg"><img src="public/images/lifetwin-ai/01-hero-background.jpeg" alt="Hero background" width="100%"/></a>
 
 **🌌 Hero Background**
+
+The main visual introduction to LifeTwin AI and its personal decision-support vision.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/02-ai-intelligence-core.jpeg"><img src="public/images/lifetwin-ai/02-ai-intelligence-core.jpeg" alt="AI intelligence core" width="100%"/></a>
 
 **✨ AI Intelligence Core**
+
+Illustrates the AI intelligence concept behind contextual reasoning and personalized insights.
 </td>
 </tr>
 <tr>
@@ -108,11 +112,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/03-decision-lab.jpeg"><img src="public/images/lifetwin-ai/03-decision-lab.jpeg" alt="Decision Lab" width="100%"/></a>
 
 **🧠 Decision Lab**
+
+Explore choices, compare alternatives, and consider potential benefits and trade-offs.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/04-my-life-twin.jpeg"><img src="public/images/lifetwin-ai/04-my-life-twin.jpeg" alt="My Life Twin" width="100%"/></a>
 
 **🪞 My Life Twin**
+
+A personalized companion concept for organizing goals, preferences, and priorities.
 </td>
 </tr>
 <tr>
@@ -120,11 +128,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/05-future-scenarios.jpeg"><img src="public/images/lifetwin-ai/05-future-scenarios.jpeg" alt="Future scenarios" width="100%"/></a>
 
 **🔮 Future Scenarios**
+
+Consider alternative paths and possible outcomes before choosing what to do next.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/06-action-tracker.jpeg"><img src="public/images/lifetwin-ai/06-action-tracker.jpeg" alt="Action Tracker" width="100%"/></a>
 
 **✅ Action Tracker**
+
+Turn intentions into practical next steps and track progress toward personal goals.
 </td>
 </tr>
 <tr>
@@ -132,11 +144,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/07-personal-growth.jpeg"><img src="public/images/lifetwin-ai/07-personal-growth.jpeg" alt="Personal growth" width="100%"/></a>
 
 **🌱 Personal Growth**
+
+Support reflection, goal-setting, and continuous personal improvement.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg"><img src="public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg" alt="Risk and trade-offs" width="100%"/></a>
 
 **⚖️ Risks & Trade-offs**
+
+Examine uncertainty, potential downsides, and competing priorities.
 </td>
 </tr>
 <tr>
@@ -144,11 +160,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/09-trust-transparency.jpeg"><img src="public/images/lifetwin-ai/09-trust-transparency.jpeg" alt="Trust and transparency" width="100%"/></a>
 
 **🛡️ Trust & Transparency**
+
+Highlights understandable AI assistance, its limitations, and informed user control.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/10-ai-architecture.jpeg"><img src="public/images/lifetwin-ai/10-ai-architecture.jpeg" alt="AI architecture" width="100%"/></a>
 
 **⚙️ AI Architecture**
+
+Presents the architecture concept for the components supporting the LifeTwin AI experience.
 </td>
 </tr>
 <tr>
@@ -156,11 +176,15 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <a href="public/images/lifetwin-ai/11-pitch-deck-cover.jpeg"><img src="public/images/lifetwin-ai/11-pitch-deck-cover.jpeg" alt="Pitch deck cover" width="100%"/></a>
 
 **🚀 Pitch Deck Cover**
+
+The opening presentation visual introducing the LifeTwin AI concept.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/12-pitch-deck-closing.jpeg"><img src="public/images/lifetwin-ai/12-pitch-deck-closing.jpeg" alt="Pitch deck closing" width="100%"/></a>
 
 **🎯 Pitch Deck Closing**
+
+The closing presentation visual bringing together the product story and future vision.
 </td>
 </tr>
 </table>
