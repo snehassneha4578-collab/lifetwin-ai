@@ -1,6 +1,6 @@
- <div align="center">
+<div align="center">
 
-# ✨ LifeTwin AI
+# Ã¢Å“Â¨ LifeTwin AI
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Explore+possibilities.;Think+with+clarity.;Make+informed+choices.;Your+future%2C+your+decisions." alt="Animated LifeTwin AI tagline" />
 
@@ -8,21 +8,21 @@
 
 Explore possibilities. Understand trade-offs. Turn intentions into action.
 
+### Live Dashboard
+
+**Deployment status:** [Open Live Dashboard](https://lifetwin-ai-five.vercel.app)
+
+[Browse Source Code](https://github.com/snehassneha4578-collab/lifetwin-ai) Ã‚Â· [Report an Issue](https://github.com/snehassneha4578-collab/lifetwin-ai/issues) Ã‚Â· [View Image Gallery](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
+
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github)](https://github.com/snehassneha4578-collab/lifetwin-ai)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react)](https://react.dev/)
 [![Gemini AI](https://img.shields.io/badge/AI-Gemini-8B5CF6?style=for-the-badge)](https://ai.google.dev/)
 
-### 🌐 Live Dashboard
-
-**🚧 Deployment status:** Not deployed yet. The project source and visual gallery are available below.
-[📂 Browse Source Code](https://github.com/snehassneha4578-collab/lifetwin-ai) · [🐛 Report an Issue](https://github.com/snehassneha4578-collab/lifetwin-ai/issues) · [🖼️ View Image Gallery](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
-
 </div>
 
 ---
-
-## 🌌 About LifeTwin AI
+## Ã°Å¸Å’Å’ About LifeTwin AI
 
 <div align="center">
   <img src="public/images/lifetwin-ai/01-hero-background.jpeg" alt="LifeTwin AI hero artwork" width="95%" />
@@ -32,20 +32,20 @@ Explore possibilities. Understand trade-offs. Turn intentions into action.
 
 The goal is simple: **use AI to support better thinking while keeping humans in control.**
 
-## ✨ Core Features
+## Ã¢Å“Â¨ Core Features
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 Decision Lab
+### Ã°Å¸Â§Â  Decision Lab
 
 Structure decisions, evaluate options, and explore relevant considerations.
 
 </td>
 <td width="50%" valign="top">
 
-### 🪞 My Life Twin
+### Ã°Å¸ÂªÅ¾ My Life Twin
 
 Reflect on personal context, preferences, and priorities.
 
@@ -54,14 +54,14 @@ Reflect on personal context, preferences, and priorities.
 <tr>
 <td width="50%" valign="top">
 
-### 🔮 Future Scenarios
+### Ã°Å¸â€Â® Future Scenarios
 
 Explore alternative possibilities, assumptions, and potential trade-offs.
 
 </td>
 <td width="50%" valign="top">
 
-### ✅ Action Tracker
+### Ã¢Å“â€¦ Action Tracker
 
 Organize intended actions and follow progress toward goals.
 
@@ -70,14 +70,14 @@ Organize intended actions and follow progress toward goals.
 <tr>
 <td width="50%" valign="top">
 
-### 💬 Decision Companion
+### Ã°Å¸â€™Â¬ Decision Companion
 
 Use an AI-assisted conversation to clarify your thinking.
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Responsible AI
+### Ã°Å¸â€ºÂ¡Ã¯Â¸Â Responsible AI
 
 Review AI-generated suggestions critically and make your own decisions.
 
@@ -85,7 +85,7 @@ Review AI-generated suggestions critically and make your own decisions.
 </tr>
 </table>
 
-## 🎨 Visual Gallery
+## Ã°Å¸Å½Â¨ Visual Gallery
 
 Explore the project's visual concepts. Click any image to open the full-size asset.
 
@@ -94,14 +94,14 @@ Explore the project's visual concepts. Click any image to open the full-size ass
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/01-hero-background.jpeg"><img src="public/images/lifetwin-ai/01-hero-background.jpeg" alt="Hero background" width="100%"/></a>
 
-**🌌 Hero Background**
+**Ã°Å¸Å’Å’ Hero Background**
 
 The main visual introduction to LifeTwin AI and its personal decision-support vision.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/02-ai-intelligence-core.jpeg"><img src="public/images/lifetwin-ai/02-ai-intelligence-core.jpeg" alt="AI intelligence core" width="100%"/></a>
 
-**✨ AI Intelligence Core**
+**Ã¢Å“Â¨ AI Intelligence Core**
 
 Illustrates the AI intelligence concept behind contextual reasoning and personalized insights.
 </td>
@@ -110,14 +110,14 @@ Illustrates the AI intelligence concept behind contextual reasoning and personal
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/03-decision-lab.jpeg"><img src="public/images/lifetwin-ai/03-decision-lab.jpeg" alt="Decision Lab" width="100%"/></a>
 
-**🧠 Decision Lab**
+**Ã°Å¸Â§Â  Decision Lab**
 
 Explore choices, compare alternatives, and consider potential benefits and trade-offs.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/04-my-life-twin.jpeg"><img src="public/images/lifetwin-ai/04-my-life-twin.jpeg" alt="My Life Twin" width="100%"/></a>
 
-**🪞 My Life Twin**
+**Ã°Å¸ÂªÅ¾ My Life Twin**
 
 A personalized companion concept for organizing goals, preferences, and priorities.
 </td>
@@ -126,14 +126,14 @@ A personalized companion concept for organizing goals, preferences, and prioriti
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/05-future-scenarios.jpeg"><img src="public/images/lifetwin-ai/05-future-scenarios.jpeg" alt="Future scenarios" width="100%"/></a>
 
-**🔮 Future Scenarios**
+**Ã°Å¸â€Â® Future Scenarios**
 
 Consider alternative paths and possible outcomes before choosing what to do next.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/06-action-tracker.jpeg"><img src="public/images/lifetwin-ai/06-action-tracker.jpeg" alt="Action Tracker" width="100%"/></a>
 
-**✅ Action Tracker**
+**Ã¢Å“â€¦ Action Tracker**
 
 Turn intentions into practical next steps and track progress toward personal goals.
 </td>
@@ -142,14 +142,14 @@ Turn intentions into practical next steps and track progress toward personal goa
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/07-personal-growth.jpeg"><img src="public/images/lifetwin-ai/07-personal-growth.jpeg" alt="Personal growth" width="100%"/></a>
 
-**🌱 Personal Growth**
+**Ã°Å¸Å’Â± Personal Growth**
 
 Support reflection, goal-setting, and continuous personal improvement.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg"><img src="public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg" alt="Risk and trade-offs" width="100%"/></a>
 
-**⚖️ Risks & Trade-offs**
+**Ã¢Å¡â€“Ã¯Â¸Â Risks & Trade-offs**
 
 Examine uncertainty, potential downsides, and competing priorities.
 </td>
@@ -158,14 +158,14 @@ Examine uncertainty, potential downsides, and competing priorities.
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/09-trust-transparency.jpeg"><img src="public/images/lifetwin-ai/09-trust-transparency.jpeg" alt="Trust and transparency" width="100%"/></a>
 
-**🛡️ Trust & Transparency**
+**Ã°Å¸â€ºÂ¡Ã¯Â¸Â Trust & Transparency**
 
 Highlights understandable AI assistance, its limitations, and informed user control.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/10-ai-architecture.jpeg"><img src="public/images/lifetwin-ai/10-ai-architecture.jpeg" alt="AI architecture" width="100%"/></a>
 
-**⚙️ AI Architecture**
+**Ã¢Å¡â„¢Ã¯Â¸Â AI Architecture**
 
 Presents the architecture concept for the components supporting the LifeTwin AI experience.
 </td>
@@ -174,23 +174,23 @@ Presents the architecture concept for the components supporting the LifeTwin AI 
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/11-pitch-deck-cover.jpeg"><img src="public/images/lifetwin-ai/11-pitch-deck-cover.jpeg" alt="Pitch deck cover" width="100%"/></a>
 
-**🚀 Pitch Deck Cover**
+**Ã°Å¸Å¡â‚¬ Pitch Deck Cover**
 
 The opening presentation visual introducing the LifeTwin AI concept.
 </td>
 <td width="50%" align="center">
 <a href="public/images/lifetwin-ai/12-pitch-deck-closing.jpeg"><img src="public/images/lifetwin-ai/12-pitch-deck-closing.jpeg" alt="Pitch deck closing" width="100%"/></a>
 
-**🎯 Pitch Deck Closing**
+**Ã°Å¸Å½Â¯ Pitch Deck Closing**
 
 The closing presentation visual bringing together the product story and future vision.
 </td>
 </tr>
 </table>
 
-[**📂 Browse all 12 images**](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
+[**Ã°Å¸â€œâ€š Browse all 12 images**](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
 
-## ⚙️ Technology Stack
+## Ã¢Å¡â„¢Ã¯Â¸Â Technology Stack
 
 <div align="center">
 
@@ -213,7 +213,7 @@ The closing presentation visual bringing together the product story and future v
 | Lucide React | Icons |
 | Zod | Schema validation |
 
-## 🚀 Run Locally
+## Ã°Å¸Å¡â‚¬ Run Locally
 
 ### 1. Clone the repository
 
@@ -250,7 +250,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run start` | Start the production server |
 | `npm run lint` | Run ESLint, if configured |
 
-## 🛡️ Responsible AI
+## Ã°Å¸â€ºÂ¡Ã¯Â¸Â Responsible AI
 
 - AI-generated responses can be incomplete or incorrect.
 - Scenarios are possibilities, not guaranteed predictions.
@@ -258,22 +258,22 @@ Open [http://localhost:3000](http://localhost:3000).
 - Keep control of your choices and decisions.
 - This prototype is not a substitute for qualified professional advice.
 
-## 🗺️ Roadmap
+## Ã°Å¸â€”ÂºÃ¯Â¸Â Roadmap
 
 - [x] Publish the source repository on GitHub.
 - [x] Create a visual README gallery for 12 project images.
 - [ ] Deploy the dashboard to a public hosting provider.
-- [ ] Add the verified live dashboard URL.
+- [x] Add the verified live dashboard URL.
 - [ ] Test the complete Gemini chat workflow.
 - [ ] Expand automated tests and document known limitations.
 
-## 🤝 Contributing
+## Ã°Å¸Â¤Â Contributing
 
 Have an idea or found a bug? Contributions and constructive feedback are welcome.
 
-[**➕ Open an issue on GitHub**](https://github.com/snehassneha4578-collab/lifetwin-ai/issues)
+[**Ã¢Å¾â€¢ Open an issue on GitHub**](https://github.com/snehassneha4578-collab/lifetwin-ai/issues)
 
-## 📄 License
+## Ã°Å¸â€œâ€ž License
 
 No license has been selected yet. All rights are reserved by default until a license is added.
 
@@ -281,8 +281,8 @@ No license has been selected yet. All rights are reserved by default until a lic
 
 <div align="center">
 
-### 💜 Think clearly. Explore thoughtfully. Act intentionally.
+### Ã°Å¸â€™Å“ Think clearly. Explore thoughtfully. Act intentionally.
 
-[**⭐ Explore LifeTwin AI on GitHub**](https://github.com/snehassneha4578-collab/lifetwin-ai)
+[**Ã¢Â­Â Explore LifeTwin AI on GitHub**](https://github.com/snehassneha4578-collab/lifetwin-ai)
 
 </div>
