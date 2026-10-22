@@ -2,13 +2,26 @@
 
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=8B5CF6&center=true&vCenter=true&width=750&lines=Explore+possibilities.;Think+with+clarity.;Understand+trade-offs.;Make+informed+choices." alt="Animated LifeTwin AI tagline" />
+
 ### Your Personal Decision Intelligence Workspace
 
 **Explore possibilities. Understand trade-offs. Turn intentions into action.**
 
 An AI-powered decision-support prototype for exploring choices, reflecting on personal priorities, considering alternative scenarios, and organizing meaningful next steps.
 
-[🚀 **Open Live Dashboard**](https://lifetwin-ai-five.vercel.app) · [💻 **Source Code**](https://github.com/snehassneha4578-collab/lifetwin-ai) · [🐛 **Report an Issue**](https://github.com/snehassneha4578-collab/lifetwin-ai/issues)
+[🚀 Live Dashboard](https://lifetwin-ai-five.vercel.app)
+
+[💻 GitHub Repository](https://github.com/snehassneha4578-collab/lifetwin-ai)
+
+[🖼️ Browse All 12 Images](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)
+
+[🐛 Report an Issue](https://github.com/snehassneha4578-collab/lifetwin-ai/issues)
+
+<img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-Typed%20JavaScript-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+<img src="https://img.shields.io/badge/AI-Google%20Gemini-8B5CF6?style=for-the-badge" alt="Google Gemini" />
 
 </div>
 
@@ -18,19 +31,15 @@ An AI-powered decision-support prototype for exploring choices, reflecting on pe
 
 LifeTwin AI explores how artificial intelligence can support better decision-making without taking control away from people.
 
-The application brings together personal reflection, structured decision exploration, future-scenario thinking, AI-assisted conversation, and action planning in one workspace.
+The application brings together decision exploration, personal reflection, future-scenario thinking, AI-assisted conversation, and action planning in one workspace.
 
-The goal is to help users understand their options, examine assumptions, consider trade-offs, and identify practical next steps.
-
-> **Core principle:** AI supports the thinking process. Humans remain responsible for decisions.
-
-## 🎨 Project Experience
+Its central idea is to help people understand their options, consider trade-offs, challenge assumptions, and identify useful next steps.
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/hero-background.png" alt="LifeTwin AI hero background" width="90%"/>
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/01-hero-background.jpeg" alt="LifeTwin AI — project hero artwork" width="90%" />
 
-*The visual introduction to LifeTwin AI and its decision-intelligence vision.*
+*The vision: a personal workspace for thoughtful decisions and intentional action.*
 
 </div>
 
@@ -38,144 +47,180 @@ The goal is to help users understand their options, examine assumptions, conside
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/decision-lab.png" alt="Decision Lab visual" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/03-decision-lab.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/03-decision-lab.jpeg" alt="Decision Lab — exploring choices and trade-offs" width="85%" />
+</a>
+
+*Explore options. Evaluate trade-offs. Think before choosing.*
 
 </div>
 
-Decision Lab focuses on breaking complex decisions into understandable parts.
+Decision Lab focuses on examining decisions systematically.
 
-- Explore available options.
-- Compare potential advantages and disadvantages.
-- Identify relevant considerations and uncertainties.
-- Reflect on trade-offs before choosing a direction.
+- Break a complex choice into understandable parts.
+- Explore potential benefits and disadvantages.
+- Identify uncertainties and competing priorities.
+- Compare alternatives before committing to a direction.
 
-**Purpose:** Help users approach difficult choices more systematically.
+**Goal:** Make difficult choices easier to evaluate.
 
 ## 🪞 My Life Twin
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/my-life-twin.png" alt="My Life Twin visual" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/04-my-life-twin.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/04-my-life-twin.jpeg" alt="My Life Twin — personal reflection and priorities" width="85%" />
+</a>
+
+*Connect decisions with personal goals, preferences, and priorities.*
 
 </div>
 
-My Life Twin represents a personalized reflection experience centered on goals, preferences, priorities, and individual context.
+My Life Twin represents a personalized reflection experience.
 
 - Reflect on personal aspirations.
 - Organize goals and priorities.
-- Consider whether options align with longer-term intentions.
-- Encourage more deliberate choices.
+- Consider how options align with longer-term intentions.
+- Encourage deliberate, context-aware choices.
 
-**Purpose:** Connect decision exploration with what matters to the individual.
+**Goal:** Connect decision-making with what matters to the individual.
 
 ## 🔮 Future Scenarios
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/future-scenarios.png" alt="Future Scenarios visual" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/05-future-scenarios.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/05-future-scenarios.jpeg" alt="Future Scenarios — exploring alternative possibilities" width="85%" />
+</a>
+
+*Explore alternative paths without treating them as guaranteed predictions.*
 
 </div>
 
-Future Scenarios explores hypothetical paths and possible consequences.
+Future Scenarios focuses on hypothetical outcomes and alternative possibilities.
 
-- Consider alternative situations.
-- Examine the assumptions behind potential outcomes.
-- Identify uncertainty and possible trade-offs.
-- Compare different paths without presenting them as guaranteed predictions.
+- Explore different situations.
+- Examine the assumptions behind possible outcomes.
+- Identify uncertainty and potential trade-offs.
+- Compare paths before deciding what to do.
 
-**Purpose:** Encourage forward thinking while acknowledging uncertainty.
+**Goal:** Encourage forward thinking while acknowledging uncertainty.
 
 ## ✅ Action Tracker
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/action-tracker.png" alt="Action Tracker visual" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/06-action-tracker.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/06-action-tracker.jpeg" alt="Action Tracker — organizing intentions and next steps" width="85%" />
+</a>
+
+*Turn intentions into manageable actions.*
 
 </div>
 
-Action Tracker focuses on turning decisions and intentions into practical next steps.
+Action Tracker represents the transition from reflection to execution.
 
 - Organize intended actions.
 - Break goals into manageable tasks.
 - Review progress toward objectives.
-- Connect reflection with follow-through.
+- Connect decisions with follow-through.
 
-**Purpose:** Help bridge the gap between deciding and doing.
+**Goal:** Bridge the gap between deciding and doing.
 
 ## ✨ AI Intelligence Core
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/ai-intelligence-core.png" alt="AI intelligence core concept" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/02-ai-intelligence-core.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/02-ai-intelligence-core.jpeg" alt="AI Intelligence Core — the project's AI concept" width="85%" />
+</a>
+
+*AI-assisted reasoning and conversation as part of the decision-support experience.*
 
 </div>
 
-The AI intelligence concept represents the use of AI to assist with contextual reasoning, explanations, and conversational exploration.
+LifeTwin AI integrates the Google Gemini API to support conversational interactions. The AI component is intended to help users explore questions, compare alternatives, and organize their thinking.
 
-LifeTwin AI integrates the Google Gemini API for AI-assisted responses. Actual availability depends on API configuration, quota, model availability, and service conditions.
+Availability depends on API configuration, quota, model availability, and service conditions.
 
-**Purpose:** Make AI a useful decision-support component rather than a replacement for human judgment.
+**Goal:** Make AI useful for exploring decisions while keeping users in control.
 
 ## 🌱 Personal Growth
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/personal-growth.png" alt="Personal growth concept" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/07-personal-growth.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/07-personal-growth.jpeg" alt="Personal Growth — reflection and continuous improvement" width="85%" />
+</a>
+
+*Reflect. Learn. Improve.*
 
 </div>
 
-Personal growth connects reflection with continuous improvement.
+The personal-growth concept connects reflection with continuous improvement.
 
 - Clarify goals and intentions.
 - Review priorities.
-- Reflect on choices and experiences.
+- Reflect on decisions and experiences.
 - Identify opportunities for improvement.
 
-**Purpose:** Encourage thoughtful, goal-oriented personal development.
+**Goal:** Encourage thoughtful, goal-oriented development.
 
 ## ⚖️ Risks & Trade-offs
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/risks-tradeoffs.png" alt="Risks and trade-offs concept" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/08-risk-and-tradeoffs.jpeg" alt="Risks and Trade-offs — examining uncertainty and disadvantages" width="85%" />
+</a>
+
+*Consider what could go wrong as well as what could go right.*
 
 </div>
 
-Good decisions require examining more than the potential benefits.
+Thoughtful decisions require more than considering potential benefits.
 
-- Consider disadvantages and opportunity costs.
+- Examine disadvantages and opportunity costs.
 - Identify assumptions that may be incorrect.
 - Recognize uncertainty and competing priorities.
-- Evaluate consequences before taking action.
+- Consider possible consequences before acting.
 
-**Purpose:** Promote balanced evaluation rather than one-sided recommendations.
+**Goal:** Encourage balanced evaluation instead of one-sided recommendations.
 
 ## 🛡️ Trust & Transparency
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/trust-transparency.png" alt="Trust and transparency concept" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/09-trust-transparency.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/09-trust-transparency.jpeg" alt="Trust and Transparency — responsible AI use" width="85%" />
+</a>
+
+*AI should support judgment, not replace it.*
 
 </div>
 
-Responsible AI requires users to understand the limitations of generated content.
+Responsible AI use requires understanding the limitations of generated content.
 
-- AI responses may be incomplete or incorrect.
-- Hypothetical scenarios are not predictions.
+- AI responses can be incomplete or inaccurate.
+- Hypothetical scenarios are not guaranteed predictions.
 - Important claims should be independently verified.
-- Users retain control over their choices.
+- Users remain responsible for their choices.
 
-**Purpose:** Encourage informed, critical, and responsible use of AI.
+**Goal:** Promote informed and responsible use of AI.
 
 ## ⚙️ AI Architecture
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/ai-architecture.png" alt="LifeTwin AI architecture concept" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/10-ai-architecture.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/10-ai-architecture.jpeg" alt="LifeTwin AI — architecture concept" width="85%" />
+</a>
+
+*The architecture concept behind the application.*
 
 </div>
 
-At a high level, the application connects the user interface with a server-side API and an external AI service.
+At a high level, the AI chat workflow connects the interface to a server-side API and the external AI service.
 
 ```text
 User Interaction
@@ -193,47 +238,41 @@ User Interface
 
 The API key should remain on the server and must never be committed to the public repository.
 
-*This diagram illustrates the high-level integration concept, not a complete production architecture specification.*
+This is a high-level integration overview, not a complete production architecture specification.
 
-## 🚀 Project Presentation
+## 🎨 Visual Gallery
 
-### Pitch Deck Cover
-
-<div align="center">
-
-<img src="public/images/lifetwin-ai/pitch-deck-cover.png" alt="LifeTwin AI pitch deck cover" width="80%"/>
-
-*Introducing the project, its vision, and the decision-support problem it explores.*
-
-</div>
-
-### Pitch Deck Closing
+The project includes 12 visual assets covering its interface concepts, AI direction, personal reflection experience, decision tools, and presentation materials.
 
 <div align="center">
 
-<img src="public/images/lifetwin-ai/pitch-deck-closing.png" alt="LifeTwin AI pitch deck closing" width="80%"/>
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/11-pitch-deck-cover.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/11-pitch-deck-cover.jpeg" alt="LifeTwin AI pitch deck cover" width="85%" />
+</a>
 
-*Concluding the project story with its central vision: thoughtful decisions supported by AI.*
+**🚀 Pitch Deck Cover**
+
+The opening visual introduces the project's vision and decision-support concept.
 
 </div>
 
-## 💬 AI Decision Companion
+<div align="center">
 
-The AI Decision Companion provides a conversational way to explore questions, clarify thinking, and consider alternative perspectives.
+<a href="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/12-pitch-deck-closing.jpeg">
+<img src="https://raw.githubusercontent.com/snehassneha4578-collab/lifetwin-ai/master/public/images/lifetwin-ai/12-pitch-deck-closing.jpeg" alt="LifeTwin AI pitch deck closing" width="85%" />
+</a>
 
-Possible uses include:
+**🎯 Pitch Deck Closing**
 
-- Comparing alternatives.
-- Exploring assumptions and uncertainties.
-- Identifying potential risks.
-- Organizing ideas into next steps.
-- Requesting a different perspective on a decision.
+The closing visual reinforces the central idea of thoughtful decisions supported by AI.
 
-The quality and availability of responses depend on the connected Gemini service. AI-generated content should always be evaluated critically.
+</div>
+
+**[📂 Open the complete image gallery](https://github.com/snehassneha4578-collab/lifetwin-ai/tree/master/public/images/lifetwin-ai)**
 
 ## 🧰 Technology Stack
 
-| Technology | Role |
+| Technology | Purpose |
 |---|---|
 | Next.js | Application framework and server-side routes |
 | React | Component-based user interface |
@@ -269,7 +308,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 Replace the placeholder with your own key.
 
-**Security:** Never commit `.env.local` or expose your API key in client-side code, screenshots, or public issues.
+**Security:** Never commit `.env.local` or expose API keys in client-side code, screenshots, or public issues.
 
 ### 3. Start the development server
 
@@ -279,7 +318,7 @@ npm run dev
 
 Open http://localhost:3000.
 
-### Useful commands
+### Useful Commands
 
 | Command | Purpose |
 |---|---|
@@ -288,49 +327,41 @@ Open http://localhost:3000.
 | `npm run start` | Start the production server |
 | `npm run lint` | Run linting if configured |
 
-## 🧪 Reliability and Testing
+## 🧪 Reliability & Limitations
 
-The public dashboard being accessible does not guarantee that every feature or AI request will succeed.
+The live dashboard being accessible does not guarantee that every feature or AI request will always succeed.
 
-Important testing areas include:
+Important testing areas include successful chat responses, temporary model unavailability, API quota errors, invalid messages, network interruptions, and retry behavior.
 
-- Successful chat responses.
-- Temporary AI service unavailability.
-- API quota and configuration errors.
-- Invalid or empty messages.
-- Network interruptions and retry behavior.
-- Correct handling of AI-generated content.
+Gemini may temporarily return availability errors during periods of high demand. AI responses should be evaluated critically.
 
-Gemini may temporarily return availability errors during periods of high demand. The AI workflow should be tested under both normal and failure conditions.
-
-## 🛡️ Responsible Use and Limitations
+## 🛡️ Responsible Use
 
 LifeTwin AI is an experimental decision-support prototype.
 
-- AI responses can be inaccurate, incomplete, or outdated.
+- AI-generated responses may be inaccurate, incomplete, or outdated.
 - Scenarios represent possibilities, not guaranteed outcomes.
-- Suggestions may not account for every personal circumstance.
-- Verify important claims using reliable sources.
-- Do not use generated content as the sole basis for high-stakes decisions.
+- Important information should be verified independently.
 - The application is not a substitute for qualified professional advice.
+- Users remain responsible for their decisions and actions.
 
-Visual concepts and illustrations communicate the project vision; they do not independently establish that every depicted capability is fully implemented.
+Visual concepts illustrate the project vision; they do not independently establish that every depicted capability is fully implemented.
 
-## 🤝 Contributing and Feedback
+## 🤝 Contributing & Feedback
 
 Ideas, bug reports, and constructive feedback are welcome.
 
-**Repository:**  
+**GitHub Repository**  
 https://github.com/snehassneha4578-collab/lifetwin-ai
 
-**Issues:**  
+**Issues & Bug Reports**  
 https://github.com/snehassneha4578-collab/lifetwin-ai/issues
 
-When reporting a problem, describe the steps to reproduce it and the expected and actual results. Never include secrets or API keys.
+When reporting an issue, include reproduction steps and the expected and actual results. Never include API keys or other secrets.
 
 ## 📄 License
 
-No license has been selected yet. All rights are reserved by default until a license is added. Check the repository for licensing updates before reusing or redistributing this project.
+No license has been selected yet. All rights are reserved by default until a license is added. Check the repository for licensing information before reusing or redistributing this project.
 
 ---
 
@@ -338,9 +369,9 @@ No license has been selected yet. All rights are reserved by default until a lic
 
 ### 💚 Think Clearly. Explore Thoughtfully. Act Intentionally.
 
-**[🚀 Open LifeTwin AI](https://lifetwin-ai-five.vercel.app)**
+[🚀 **Open LifeTwin AI**](https://lifetwin-ai-five.vercel.app)
 
-**[💻 Explore the Source Code](https://github.com/snehassneha4578-collab/lifetwin-ai)**
+[💻 **Explore the Source Code**](https://github.com/snehassneha4578-collab/lifetwin-ai)
 
 *AI to support better thinking. Humans in control.*
 
