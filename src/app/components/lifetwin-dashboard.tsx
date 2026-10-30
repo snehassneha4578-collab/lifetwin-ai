@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useMemo, useState } from "react";
 import {
@@ -242,6 +242,7 @@ function getInstantReply(input: string): string | null {
 
     return null;
   }
+
 async function sendMessage() {
     const value = chatInput.trim();
     if (!value || chatLoading) return;
@@ -264,12 +265,11 @@ async function sendMessage() {
         ));
         return;
       }
-
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: value }),
-        signal: AbortSignal.timeout(8000)
+        signal: AbortSignal.timeout(90000)
       });
 
       if (!response.ok) {
@@ -287,20 +287,30 @@ async function sendMessage() {
       const decoder = new TextDecoder();
       let buffer = "";
       let streamedText = "";
+      let streamError = "";
+
+      const updateAssistant = (text: string) => {
+        setMessages(old => {
+          const index = old.length - 1;
+          if (index < 0 || old[index].role !== "assistant") return old;
+          return old.map((m, i) => i === index ? { ...m, text } : m);
+        });
+      };
 
       const handleEvent = (eventText: string) => {
-        for (const line of eventText.split("\n")) {
-          if (!line.startsWith("data: ")) continue;
-          const data: { text?: string; error?: string; done?: boolean } =
-            JSON.parse(line.slice(6));
-          if (data.error) throw new Error(data.error);
+        for (const line of eventText.split(/\r?\n/)) {
+          if (!line.startsWith("data:")) continue;
+          const payload = line.slice(5).trim();
+          if (!payload) continue;
+
+          const data: { text?: string; error?: string; done?: boolean } = JSON.parse(payload);
+          if (data.error) {
+            streamError = data.error;
+            continue;
+          }
           if (data.text) {
             streamedText += data.text;
-            setMessages(old => old.map((m, i) =>
-              i === old.length - 1 && m.role === "assistant"
-                ? { ...m, text: streamedText }
-                : m
-            ));
+            updateAssistant(streamedText);
           }
         }
       };
@@ -308,12 +318,15 @@ async function sendMessage() {
       while (true) {
         const { value: chunk, done } = await reader.read();
         buffer += decoder.decode(chunk || new Uint8Array(), { stream: !done });
-        const events = buffer.split("\n\n");
+        const normalized = buffer.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+        const events = normalized.split("\n\n");
         buffer = events.pop() || "";
         for (const eventText of events) handleEvent(eventText);
         if (done) break;
       }
+
       if (buffer.trim()) handleEvent(buffer);
+      if (streamError) throw new Error(streamError);
       if (!streamedText.trim()) throw new Error("AI returned an empty response.");
     } catch (error) {
       const timedOut = error instanceof Error &&
@@ -386,7 +399,7 @@ async function sendMessage() {
             </div>
             <div className="hidden text-xs text-slate-400 sm:block">Workspace <span className="mx-2 text-slate-600">/</span><span className="text-slate-200">{activeTab}</span></div>
             <div className="ml-auto flex items-center gap-3">
-              <span className="rounded-full border border-amber-300/20 bg-amber-300/[0.07] px-3 py-1.5 text-[10px] text-amber-200">Prototype mode</span>
+              <span className="rounded-full border border-amber-300/20 bg-amber-300/[0.07] px-3 py-1.5 text-[10px] text-amber-200">Live AI chat</span>
               <div className="flex h-9 w-9 items-center justify-center rounded-full border border-violet-300/25 bg-gradient-to-br from-violet-400/25 to-cyan-300/20 text-xs font-bold">LT</div>
             </div>
           </header>
@@ -423,18 +436,18 @@ async function sendMessage() {
                   <div className="mt-2 text-right text-[10px] text-slate-500">{decision.length}/2000 characters</div>
                   <div className="mt-5 grid gap-4 sm:grid-cols-2">
                     <div><label htmlFor="lt-hours" className="flex items-center gap-2 text-xs text-slate-400"><Clock3 size={14}/> Time available / week</label><div className="mt-3 flex items-center gap-3"><input id="lt-hours" type="range" min="1" max="60" value={hours} onChange={e=>setHours(Number(e.target.value))} className="w-full accent-violet-400"/><span className="min-w-16 rounded-lg bg-white/[0.05] px-3 py-2 text-center text-sm">{hours}h</span></div></div>
-                    <div><label htmlFor="lt-budget" className="flex items-center gap-2 text-xs text-slate-400"><Wallet size={14}/> Budget (optional)</label><div className="mt-3 flex items-center rounded-xl border border-white/10 bg-[#090d18]/80 px-3"><span className="text-slate-500">â‚¹</span><input id="lt-budget" type="number" min="0" value={budget} onChange={e=>setBudget(Math.max(0,Number(e.target.value)||0))} className="w-full bg-transparent p-2.5 text-sm outline-none"/></div></div>
+                    <div><label htmlFor="lt-budget" className="flex items-center gap-2 text-xs text-slate-400"><Wallet size={14}/> Budget (optional)</label><div className="mt-3 flex items-center rounded-xl border border-white/10 bg-[#090d18]/80 px-3"><span className="text-slate-500">₹</span><input id="lt-budget" type="number" min="0" value={budget} onChange={e=>setBudget(Math.max(0,Number(e.target.value)||0))} className="w-full bg-transparent p-2.5 text-sm outline-none"/></div></div>
                   </div>
                   <div className="mt-5"><label htmlFor="lt-horizon" className="text-xs text-slate-400">Planning horizon</label><div className="relative mt-2"><select id="lt-horizon" value={horizon} onChange={e=>setHorizon(e.target.value)} className="w-full appearance-none rounded-xl border border-white/10 bg-[#101321] px-3 py-3 text-sm outline-none focus:border-violet-400/60"><option>30 days</option><option>90 days</option><option>6 months</option><option>1 year</option><option>3 years</option></select><ChevronDown size={15} className="pointer-events-none absolute right-3 top-3.5 text-slate-500"/></div></div>
                   <button disabled={!decision.trim()||running} onClick={runSimulation} className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-violet-500 to-indigo-500 px-4 py-3.5 text-sm font-semibold shadow-lg shadow-violet-950/40 transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-40"><Zap size={16}/>{running?"Exploring scenarios…":"Run Analysis"}<ArrowRight size={15}/></button>
-                  <p className="mt-3 text-center text-[10px] text-slate-500">Prototype simulation only · No live AI inference is connected.</p>
+                  <p className="mt-3 text-center text-[10px] text-slate-500">Live Gemini AI connected · Scenario views are illustrative, not validated forecasts.</p>
                   {hasRun && <div role="status" className="lt-animate-in mt-4 rounded-xl border border-cyan-300/20 bg-cyan-300/[0.06] p-3 text-xs leading-5 text-cyan-100"><CheckCircle2 size={15} className="mr-2 inline"/> Prototype scenario view refreshed using your selected resources. Results are illustrative, not validated forecasts.</div>}
                 </div>
 
                 <div id="profile" hidden={activeTab !== "My Life Twin"} className="lt-glass scroll-mt-24 rounded-2xl p-5 sm:p-6">
                   <div className="flex items-center gap-3"><div className="rounded-xl bg-cyan-300/10 p-3 text-cyan-200"><BrainCircuit size={19}/></div><div><h3 className="text-sm font-semibold">My Life Twin</h3><p className="mt-1 text-[10px] text-slate-500">Your decision context</p></div></div>
                   <p className="mt-4 text-xs leading-6 text-slate-400">A useful decision model starts with your goals, resources, constraints, and definition of success.</p>
-                  <div className="mt-5 space-y-3">{[{icon:Target,label:"Decision focus",value:decision.trim()?"Personal decision entered":"Not defined"},{icon:Clock3,label:"Weekly time",value:`${hours} hours`},{icon:Wallet,label:"Available budget",value:`â‚¹${budget.toLocaleString("en-IN")}`},{icon:Compass,label:"Horizon",value:horizon}].map(item=>{const Icon=item.icon;return <div key={item.label} className="flex items-center justify-between gap-3 rounded-xl bg-white/[0.025] p-3"><span className="flex items-center gap-2 text-xs text-slate-400"><Icon size={14}/>{item.label}</span><span className="max-w-[55%] truncate text-right text-xs font-medium">{item.value}</span></div>})}</div>
+                  <div className="mt-5 space-y-3">{[{icon:Target,label:"Decision focus",value:decision.trim()?"Personal decision entered":"Not defined"},{icon:Clock3,label:"Weekly time",value:`${hours} hours`},{icon:Wallet,label:"Available budget",value:`₹${budget.toLocaleString("en-IN")}`},{icon:Compass,label:"Horizon",value:horizon}].map(item=>{const Icon=item.icon;return <div key={item.label} className="flex items-center justify-between gap-3 rounded-xl bg-white/[0.025] p-3"><span className="flex items-center gap-2 text-xs text-slate-400"><Icon size={14}/>{item.label}</span><span className="max-w-[55%] truncate text-right text-xs font-medium">{item.value}</span></div>})}</div>
                   <div className="mt-5 rounded-xl border border-violet-300/15 bg-violet-300/[0.05] p-3 text-[11px] leading-5 text-violet-100"><Lightbulb size={14} className="mr-2 inline"/>Tip: state what a good outcome looks like and what constraints cannot change.</div>
                 </div>
               </div>
@@ -469,7 +482,7 @@ async function sendMessage() {
               {showChat&&<div className="lt-glass mt-5 overflow-hidden rounded-2xl"><div className="flex items-center gap-3 border-b border-white/[0.07] p-4"><div className="rounded-xl bg-violet-400/10 p-2 text-violet-200"><MessageCircle size={17}/></div><div><div className="text-xs font-semibold">LifeTwin conversation</div><div className="mt-1 text-[10px] text-amber-200">Gemini AI · live responses</div></div><button onClick={startNewChat} className="ml-auto rounded-lg border border-white/10 px-3 py-2 text-[10px] text-slate-300 hover:bg-white/[0.04]">New chat</button></div><div className="flex gap-2 overflow-x-auto border-b border-white/[0.07] p-3">{conversations.map(c=><button key={c.id} onClick={()=>switchChat(c.id)} title={c.title} className={`max-w-44 shrink-0 truncate rounded-lg border px-3 py-2 text-[10px] transition ${c.id===activeConversationId?"border-violet-400/50 bg-violet-500/15 text-violet-100":"border-white/10 text-slate-400 hover:bg-white/[0.05]"}`}>{c.title || "New conversation"}</button>)}</div><div className="max-h-72 space-y-3 overflow-y-auto p-4" aria-live="polite">{messages.map((m,i)=><div key={i} className={`flex ${m.role==="user"?"justify-end": "justify-start"}`}><div className={`max-w-[88%] whitespace-pre-wrap rounded-2xl px-4 py-3 text-xs leading-6 ${m.role==="user"?"bg-violet-500/20 text-violet-100":"border border-white/[0.07] bg-white/[0.035] text-slate-300"}`}>{formatChatText(m.text)}</div></div>)}</div><form onSubmit={e=>{e.preventDefault();sendMessage();}} className="flex gap-2 border-t border-white/[0.07] p-3"><input value={chatInput} onChange={e=>setChatInput(e.target.value)} placeholder="Ask about goals, options, or trade-offs…" className="min-w-0 flex-1 rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-xs outline-none focus:border-violet-400/60"/><button type="submit" disabled={!chatInput.trim() || chatLoading} aria-label="Send message" className="rounded-xl bg-violet-500 px-4 text-white disabled:opacity-40">{chatLoading ? <span className="text-xs">Thinking…</span> : <Send size={16}/>}</button></form></div>}
             </section>
 
-            <footer className="mt-12 flex flex-col justify-between gap-3 border-t border-white/[0.07] py-6 text-[10px] leading-5 text-slate-600 sm:flex-row"><p>LifeTwin AI · Explore possibilities. Make informed choices.</p><p>Prototype · Illustrative charts and local chat are not forecasts or live AI advice.</p></footer>
+            <footer className="mt-12 flex flex-col justify-between gap-3 border-t border-white/[0.07] py-6 text-[10px] leading-5 text-slate-600 sm:flex-row"><p>LifeTwin AI · Explore possibilities. Make informed choices.</p><p>Illustrative charts are examples, not forecasts. AI responses may be incomplete and should be checked.</p></footer>
           </div>
         </div>
       </div>

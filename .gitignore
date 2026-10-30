@@ -50,3 +50,5 @@ node_modules/
 # Local backups
 *.bak
 backups/
+.vercel
+.env*
